@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "763494736625",
+    "project_id": "e-val-ab404",
+    "storage_bucket": "e-val-ab404.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763494736625:android:e0b1ac80a0962057053f50",
+        "android_client_info": {
+          "package_name": "com.example.e_val"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVz_lX4SFbk-pihuUzQDPxC1Sb5PVR3Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

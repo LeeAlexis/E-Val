@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:text="Permit Verification"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"/>
+<EditText
+    android:id="@+id/searchField"
+    android:hint="Enter Student ID or Email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+<Button
+    android:id="@+id/searchButton"
+    android:text="Search Permit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"/>
+<Button
+    android:id="@+id/scanQrButton"
+    android:text="Scan QR Code"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"/>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#ccc"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"/>
+<TextView
+    android:id="@+id/permitDetails"
+    android:text="Permit details will appear here..."
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+<Button
+    android:id="@+id/verifyButton"
+    android:text="Verify Permit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:enabled="false"/>
+    </LinearLayout>
